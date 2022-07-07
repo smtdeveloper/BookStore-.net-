@@ -13,7 +13,7 @@ namespace WepApi.BookOperations
             _dbContext =  dbContext;
         }
 
-        public BookDetailViewModel Handle()
+        public BookDetailViewModel Handle() 
         {
 
           var book = _dbContext.Books.Where(book => book.ID == BlogID).SingleOrDefault();
