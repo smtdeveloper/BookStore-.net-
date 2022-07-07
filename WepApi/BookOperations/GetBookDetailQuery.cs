@@ -28,7 +28,8 @@ namespace WepApi.BookOperations
              model.PublishDate =book.PublishDate.Date.ToString("dd/MM/yyyy");
              
 
-            return model;  
+            return model;   
+
         }
 
 
