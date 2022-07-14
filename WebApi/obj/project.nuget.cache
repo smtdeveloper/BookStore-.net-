@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zOhkvNqExlbTR/0wq2HyNnhl2cV83UcUyDRuZeM0eVayIc5nbgykNy08E8AnDFAVigvPwaA2gA24GcJGk0a6mA==",
+  "dgSpecHash": "tr6Hckkf6Q/CzFd/7JfsoMayJHei6Y85ycb/fpm4eWqwq5KLqQm7J5wx9AV7F0P4pJeyJR40V4pUzYlxuC2eRA==",
   "success": true,
   "projectFilePath": "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\samet\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\samet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\samet\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\samet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",

@@ -1,3 +1,4 @@
+using AutoMapper;
 using WebApi.DbOprations;
 using WebApi.Entities;
 using WepApi.Common;
@@ -11,10 +12,12 @@ namespace WebApi.BookOprations
         public BookDetailModel Model {get; set;}
 
         private readonly BookStoreDbContext _dbContext;
+        private readonly IMapper _mapper;
 
-    public GetBookDetail(BookStoreDbContext dbContext)
+    public GetBookDetail(BookStoreDbContext dbContext, IMapper mapper)
     {
         _dbContext = dbContext;
+        _mapper = mapper;
     }
 
     public BookDetailModel Handle()
@@ -24,16 +27,17 @@ namespace WebApi.BookOprations
         if(book == null)
         throw new InvalidOperationException("Kitap Bulunamadı ! ");
 
-        BookDetailModel model = new BookDetailModel();
-        model.Title = book.Title;
-        model.PageCount = book.PageCount;
-        model.PublishDate = book.PublishDate.Date.ToString("dd/MM/yyyy");
-        model.Genre = ((GenreEnum)book.GenreId).ToString();
+        BookDetailModel model = _mapper.Map<BookDetailModel>(book);      
 
         return model;
 
     }
 
+        public override bool Equals(object? obj)
+        {
+            return obj is GetBookDetail detail &&
+                   EqualityComparer<IMapper>.Default.Equals(_mapper, detail._mapper);
+        }
     }
 
     public class BookDetailModel

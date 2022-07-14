@@ -29,3 +29,5 @@ D:\YAZILIM\Patika\BookStore\WebApi\obj\Debug\net6.0\WebApi.dll
 D:\YAZILIM\Patika\BookStore\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 D:\YAZILIM\Patika\BookStore\WebApi\obj\Debug\net6.0\WebApi.pdb
 D:\YAZILIM\Patika\BookStore\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
+D:\YAZILIM\Patika\BookStore\WebApi\bin\Debug\net6.0\AutoMapper.dll
+D:\YAZILIM\Patika\BookStore\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
