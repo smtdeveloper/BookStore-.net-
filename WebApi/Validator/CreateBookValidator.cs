@@ -1,8 +1,21 @@
+using FluentValidation;
+using WebApi.BookOprations;
+
 namespace WebApi.Validator
 {
 
-    public class CreateBookValidator
+    public class CreateBookValidator : AbstractValidator<CreateBook>
     {
-        RuleFor();
+
+      public CreateBookValidator()
+      {
+        
+        RuleFor(x => x.Model.GenreId).GreaterThan(0);
+        RuleFor(x => x.Model.PageCount).GreaterThan(0);
+        RuleFor(x => x.Model.PublisDate.Date).NotEmpty().LessThan(DateTime.Now.Date);
+        RuleFor(x => x.Model.Title).NotEmpty().MinimumLength(4);
+
+      }
+
     }
 }
