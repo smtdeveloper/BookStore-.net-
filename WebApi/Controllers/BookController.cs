@@ -35,48 +35,39 @@ namespace WebApi.AddController
         public IActionResult GetById(int id)
         {
             BookDetailModel result;   
-            try
-            {
+            
                  GetBookDetail query = new GetBookDetail(_context, _mapper);
             query.BlogID = id;
             GetBookDetailValidator validator = new GetBookDetailValidator();
             validator.ValidateAndThrow(query);
             result = query.Handle();
             
-            }
-            catch (Exception ex)
-            {
-                
-               return BadRequest(ex.Message);
-            }
+           
+            
             return Ok(result);
         }
 
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {
-            try
-            {
+           
                 CreateBook command = new CreateBook(_context, _mapper);
                 command.Model = newBook;
+
                 CreateBookValidator validator =  new CreateBookValidator();
                 validator.ValidateAndThrow(command);
                 
                 command.Handle();
                 return Ok();
 
-            }
-            catch (Exception ex)
-            {
-               return BadRequest(ex.Message);
-            }
+           
+
             }
 
             [HttpPut("{id}")]
             public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel UpdateBook)
             {
-                try
-                {
+               
                     UpdateBook command = new UpdateBook(_context);
                     command.BlogID = id;
                     command.Model = UpdateBook;
@@ -84,12 +75,7 @@ namespace WebApi.AddController
                     validator.ValidateAndThrow(command);
                     command.Handle();
 
-                }
-                catch (Exception ex)
-                {
-                    
-                   return BadRequest(ex.Message);
-                }
+               
 
               
                 return Ok();
@@ -99,19 +85,14 @@ namespace WebApi.AddController
             [HttpDelete("{id}")]
             public IActionResult DeleteBook(int id)
             {
-                try
-                {
+                
                      DeleteBook command = new DeleteBook(_context);
                 command.BlogID = id;
                 DeleteBookValidator validator = new DeleteBookValidator();
                 validator.ValidateAndThrow(command);
                 command.Handle();
                 
-                }
-                catch (Exception ex)
-                {
-                   return BadRequest(ex.Message);
-                }
+               
                 
                 return Ok();
             }
