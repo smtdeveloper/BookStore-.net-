@@ -1,10 +1,8 @@
 
 using AutoMapper;
 using FluentValidation;
-using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.BookOprations;
-using WebApi.BookOprations.GetBookQuery;
+using WebApi.Application.BookOprations;
 using WebApi.DbOprations;
 using WebApi.Validator;
 
@@ -36,7 +34,7 @@ namespace WebApi.AddController
         {
             BookDetailModel result;   
             
-                 GetBookDetail query = new GetBookDetail(_context, _mapper);
+            GetBookDetail query = new GetBookDetail(_context, _mapper);
             query.BlogID = id;
             GetBookDetailValidator validator = new GetBookDetailValidator();
             validator.ValidateAndThrow(query);

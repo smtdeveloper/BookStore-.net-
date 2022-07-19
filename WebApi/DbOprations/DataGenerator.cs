@@ -14,6 +14,20 @@ namespace WebApi.DbOprations
                 {
                     return;
                 }
+                context.Genres.AddRange(
+                    new Genre
+                    {
+                        Name = "Backend "
+                    },
+                    new Genre
+                    {
+                        Name = "Frontend "
+                    },
+                    new Genre
+                    {
+                        Name = "DataBase"
+                    }
+                );
 
                 context.Books.AddRange(
 

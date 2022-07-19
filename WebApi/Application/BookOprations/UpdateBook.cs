@@ -1,8 +1,7 @@
 using WebApi.DbOprations;
 using WebApi.Entities;
-using WepApi.Common;
 
-namespace WebApi.BookOprations
+namespace WebApi.Application.BookOprations
 {
     public class UpdateBook
     {
