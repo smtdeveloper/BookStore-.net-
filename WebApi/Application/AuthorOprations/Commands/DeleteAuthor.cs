@@ -6,11 +6,11 @@ namespace WebApi.Application.AuthorOprations
     public class DeleteAuthor
     {
         
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
       
         public int AuthorID { get; set; }
 
-    public DeleteAuthor(BookStoreDbContext dbContext)
+    public DeleteAuthor(IBookStoreDbContext dbContext)
     {
         _dbContext = dbContext;
     }

@@ -6,11 +6,11 @@ namespace WebApi.Application.AuthorOprations
     public class UpdateAuthor
     {
         
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
         public int AuthorID { get; set; } 
         public UpdateAuthorModel Model {get; set;}
 
-    public UpdateAuthor(BookStoreDbContext dbContext)
+    public UpdateAuthor(IBookStoreDbContext dbContext)
     {
         _dbContext = dbContext;
     }

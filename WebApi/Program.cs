@@ -17,8 +17,9 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName : "BookStoreDB"));
-
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IBookStoreDbContext>(Provider => Provider.GetService<BookStoreDbContext>());
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());  
 
 
 
