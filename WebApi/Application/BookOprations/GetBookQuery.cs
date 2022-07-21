@@ -20,7 +20,9 @@ namespace WebApi.Application.BookOprations
 
     public List<BookViewModel> Handle()
     {
-        var bookList = _dbContext.Books.Include(x=> x.Genre).OrderBy(x => x.ID).ToList<Book>();
+        var bookList = _dbContext.Books.Include(x=> x.Genre)
+        .Where(x=> x.IsActive == true).OrderBy(x => x.ID).ToList<Book>();
+        
         List<BookViewModel> model = _mapper.Map<List<BookViewModel>>(bookList);
         return model;
     }

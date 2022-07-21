@@ -84,7 +84,7 @@ namespace WebApi.AddController
             public IActionResult DeleteBook(int id)
             {
                 
-                     DeleteBook command = new DeleteBook(_context);
+                DeleteBook command = new DeleteBook(_context);
                 command.BlogID = id;
                 DeleteBookValidator validator = new DeleteBookValidator();
                 validator.ValidateAndThrow(command);

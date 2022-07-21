@@ -19,7 +19,8 @@ namespace WebApi.Application.AuthorOprations.Queries
 
         public AuthorDetailViewModel Handle()
         {
-            var author = _context.Authors.Include(x=> x.Book).SingleOrDefault(x => x.ID == AuthorId);
+            var author = _context.Authors.Include(x=> x.Book)
+            .SingleOrDefault(x => x.ID == AuthorId);
             
             if(author == null)
             throw new InvalidOperationException("Yazar Bulunamadı !");
