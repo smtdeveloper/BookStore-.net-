@@ -9,8 +9,8 @@ namespace WebApi.Validator
 
       public GetBookDetailValidator()
       {
-        RuleFor(x => x.BlogID).GreaterThan(0);
-        RuleFor(x => x.BlogID).NotEmpty().WithMessage("ID Boş Geçilemez!");
+        RuleFor(x => x.BookID).GreaterThan(0);
+        RuleFor(x => x.BookID).NotEmpty().WithMessage("ID Boş Geçilemez!");
 
       }
 

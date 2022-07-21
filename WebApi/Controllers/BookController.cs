@@ -35,7 +35,7 @@ namespace WebApi.AddController
             BookDetailModel result;   
             
             GetBookDetail query = new GetBookDetail(_context, _mapper);
-            query.BlogID = id;
+            query.BookID = id;
             GetBookDetailValidator validator = new GetBookDetailValidator();
             validator.ValidateAndThrow(query);
             result = query.Handle();

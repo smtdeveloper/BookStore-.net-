@@ -8,7 +8,7 @@ namespace WebApi.Application.BookOprations
     public class GetBookDetail
     {
         
-        public int BlogID { get; set; }
+        public int BookID { get; set; }
         public BookDetailModel Model {get; set;}
 
         private readonly BookStoreDbContext _dbContext;
@@ -22,7 +22,7 @@ namespace WebApi.Application.BookOprations
 
     public BookDetailModel Handle()
     {
-        var book = _dbContext.Books.Include(x=> x.Genre).SingleOrDefault(x => x.ID == BlogID);
+        var book = _dbContext.Books.Include(x=> x.Genre).SingleOrDefault(x => x.ID == BookID);
 
         if(book == null)
         throw new InvalidOperationException("Kitap Bulunamadı ! ");
@@ -38,6 +38,7 @@ namespace WebApi.Application.BookOprations
             return obj is GetBookDetail detail &&
                    EqualityComparer<IMapper>.Default.Equals(_mapper, detail._mapper);
         }
+        
     }
 
     public class BookDetailModel

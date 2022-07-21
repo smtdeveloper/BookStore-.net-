@@ -6,7 +6,7 @@ using WebApi.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddTransient<ILoggerService, DBLogger>();
+
 builder.Services.AddTransient<ILoggerService, ConsoleLogger>();
 
 builder.Services.AddControllers();
