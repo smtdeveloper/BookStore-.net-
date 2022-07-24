@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {}
+    "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {
+    "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\samet\\.nuget\\packages\\",
-        "outputPath": "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\obj\\",
+        "outputPath": "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

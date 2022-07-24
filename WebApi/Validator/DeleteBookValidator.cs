@@ -9,7 +9,7 @@ namespace WebApi.Validator
 
       public DeleteBookValidator()
       {
-        RuleFor(x => x.BlogID).GreaterThan(0);
+        RuleFor(x => x.BookID).GreaterThan(0);
         
 
       }

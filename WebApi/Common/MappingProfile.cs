@@ -30,6 +30,10 @@ namespace WebApi.Common
             .ForMember(dest => dest.Book , opt=> opt.MapFrom(src => src.Book.Title));
 
             CreateMap<CreateAuthorModel, Author>();
+
+            CreateMap<UpdateBookModel , Book >();
+
+
         }
     }
 

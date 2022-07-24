@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "50thRdfYTaZlcgad4pUvBBIUw2JbSDdOxGCaMrutfDOfZ+dDQ98S/SvWHxO02Ve+RzI7f+1VfnCC8ckEGrIvZQ==",
+  "dgSpecHash": "+M7uGHt4nD6bu6mssuNwtGx7Xf4NHvoyOwj5NPAUH6aCZWiWchse4+J6GZJMsKtcVhm5GBWyl8vXT1j8gb44YQ==",
   "success": true,
-  "projectFilePath": "D:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+  "projectFilePath": "d:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samet\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

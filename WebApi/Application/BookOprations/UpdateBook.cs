@@ -1,3 +1,4 @@
+using AutoMapper;
 using WebApi.DbOprations;
 using WebApi.Entities;
 
@@ -7,24 +8,26 @@ namespace WebApi.Application.BookOprations
     {
         
         private readonly IBookStoreDbContext _dbContext;
-        public int BlogID { get; set; } 
+        private readonly IMapper _mapper;
+        
+        public int BookID { get; set; } 
         public UpdateBookModel Model {get; set;}
 
-    public UpdateBook(IBookStoreDbContext dbContext)
+    public UpdateBook(IBookStoreDbContext dbContext , IMapper mapper)
     {
         _dbContext = dbContext;
+        _mapper = mapper;
     }
 
     public void Handle()
     {
-        var book = _dbContext.Books.SingleOrDefault(x => x.ID == BlogID);
+        var book = _dbContext.Books.SingleOrDefault(x => x.ID == BookID);
 
         if(book == null)
-        throw new InvalidOperationException("Kitap Bulunamadı ! ");
+        throw new InvalidOperationException("Kitap Bulunamadı !");
 
-       book.GenreId =Model.GenreID != default ? Model.GenreID : book.GenreId;
-       book.Title =Model.Title != default ? Model.Title : book.Title;
-       
+        _mapper.Map<UpdateBookModel , Book>(Model , book);
+
         _dbContext.SaveChanges();
 
     }

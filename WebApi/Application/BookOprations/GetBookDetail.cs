@@ -26,7 +26,7 @@ namespace WebApi.Application.BookOprations
         .SingleOrDefault(x => x.ID == BookID && x.IsActive == true);
 
         if(book == null)
-        throw new InvalidOperationException("Kitap Bulunamadı ! ");
+        throw new InvalidOperationException("Kitap Bulunamadı !");
 
         BookDetailModel model = _mapper.Map<BookDetailModel>(book);      
 

@@ -8,7 +8,7 @@ namespace WebApi.Application.BookOprations
         
         private readonly IBookStoreDbContext _dbContext;
       
-        public int BlogID { get; set; }
+        public int BookID { get; set; }
 
     public DeleteBook(IBookStoreDbContext dbContext)
     {
@@ -17,10 +17,10 @@ namespace WebApi.Application.BookOprations
 
     public void Handle()
     {
-        var book = _dbContext.Books.SingleOrDefault(x => x.ID == BlogID);
+        var book = _dbContext.Books.SingleOrDefault(x => x.ID == BookID);
 
         if(book == null)
-        throw new InvalidOperationException("Kitap Bulunamadı ! ");
+        throw new InvalidOperationException("Kitap Bulunamadı !");
 
         _dbContext.Books.Remove(book);
         _dbContext.SaveChanges();

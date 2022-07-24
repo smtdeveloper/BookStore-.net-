@@ -9,7 +9,7 @@ namespace WebApi.Validator
 
       public UpdateBookValidator()
       {
-       RuleFor(x => x.BlogID).GreaterThan(0);
+       RuleFor(x => x.BookID).GreaterThan(0);
        RuleFor(x => x.Model.GenreID).GreaterThan(0);
        RuleFor(x => x.Model.Title).NotEmpty().MinimumLength(4);
 

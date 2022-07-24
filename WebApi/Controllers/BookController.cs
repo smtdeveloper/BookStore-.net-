@@ -66,11 +66,14 @@ namespace WebApi.AddController
             public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel UpdateBook)
             {
                
-                    UpdateBook command = new UpdateBook(_context);
-                    command.BlogID = id;
+                    UpdateBook command = new UpdateBook(_context,_mapper);
+
+                    command.BookID = id;
                     command.Model = UpdateBook;
+
                     UpdateBookValidator validator = new UpdateBookValidator();
                     validator.ValidateAndThrow(command);
+                    
                     command.Handle();
 
                
@@ -85,13 +88,10 @@ namespace WebApi.AddController
             {
                 
                 DeleteBook command = new DeleteBook(_context);
-                command.BlogID = id;
+                command.BookID = id;
                 DeleteBookValidator validator = new DeleteBookValidator();
                 validator.ValidateAndThrow(command);
                 command.Handle();
-                
-               
-                
                 return Ok();
             }
 
