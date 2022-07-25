@@ -41,7 +41,7 @@ namespace Application.BookOprations
             UpdateBook command = new UpdateBook(_context, _mapper);
             UpdateBookModel model = new UpdateBookModel(){Title = "SMTcoder" , GenreID = 1   };
             command.Model = model;
-            command.BookID = 1;
+            command.BookID = 2;
             
             // Arc
             FluentActions.Invoking(() => command.Handle()).Invoke();

@@ -32,12 +32,12 @@ namespace Validator
                 PageCount = pageCount,
                 GenreId = genreId,
                 PublisDate = DateTime.Now.Date.AddYears(-1)
-                };
+            };
             
             //Arc
             CreateBookValidator validator = new CreateBookValidator();
             var result = validator.Validate(command);
-
+            
             //Assert
             result.Errors.Count.Should().BeGreaterThan(0);
         }

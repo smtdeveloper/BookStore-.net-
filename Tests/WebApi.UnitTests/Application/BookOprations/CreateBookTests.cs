@@ -45,7 +45,7 @@ namespace Application.BookOprations
         {
             // Arrenge
             CreateBook command = new CreateBook(_context, _mapper);
-            CreateBookModel model = new CreateBookModel(){Title = "SMTcoder" , PageCount = 1000, PublisDate = DateTime.Now.Date.AddYears(-10), GenreId =1 };
+            CreateBookModel model = new CreateBookModel(){Title = "SMTcoder2" , PageCount = 1000, PublisDate = DateTime.Now.Date.AddYears(-10), GenreId =1 };
             command.Model = model;
             
             // Arc
