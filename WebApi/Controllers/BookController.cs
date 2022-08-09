@@ -1,13 +1,16 @@
 
 using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Application.BookOprations;
 using WebApi.DbOprations;
 using WebApi.Validator;
+using WebApi.Validator.BookValidator;
 
 namespace WebApi.AddController
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class BookController : ControllerBase
@@ -20,13 +23,14 @@ namespace WebApi.AddController
             _context = context;
             _mapper = mapper;
         }
+
           [HttpGet]
         public IActionResult GetBooks()
         { 
             GetBookQuery query = new GetBookQuery(_context, _mapper);
             var result = query.Handle();
             return Ok(result);
-
+            
         }
 
         [HttpGet("{id}")]

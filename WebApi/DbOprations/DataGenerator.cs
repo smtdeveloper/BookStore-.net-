@@ -15,6 +15,20 @@ namespace WebApi.DbOprations
                     return;
                 }
 
+            context.Users.AddRange(
+                    new User 
+                    {
+                       Name = "Samet",
+                       LastName = "Akca",
+                       Email = "smtakca@gmail.com",
+                       Password = "123456"
+                    }
+
+                );
+
+
+            
+
                 context.Authors.AddRange(
                     new Author 
                     {

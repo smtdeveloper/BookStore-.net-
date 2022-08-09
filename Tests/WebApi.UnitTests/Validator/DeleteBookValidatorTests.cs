@@ -2,6 +2,7 @@ using FluentAssertions;
 using TestSetup;
 using WebApi.Application.BookOprations;
 using WebApi.Validator;
+using WebApi.Validator.BookValidator;
 using Xunit;
 
 namespace Validator

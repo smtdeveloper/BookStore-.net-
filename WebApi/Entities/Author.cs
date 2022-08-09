@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApi.Entities
 {
-
     public class Author{
         
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

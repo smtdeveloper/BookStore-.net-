@@ -6,6 +6,7 @@ using WebApi.Application.BookOprations;
 using WebApi.DbOprations;
 using WebApi.Entities;
 using WebApi.Validator;
+using WebApi.Validator.BookValidator;
 using Xunit;
 
 namespace Validator

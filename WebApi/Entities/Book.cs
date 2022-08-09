@@ -15,6 +15,8 @@ namespace WebApi.Entities
         public DateTime PublishDate { get; set; }
         public bool IsActive { get; set; } = true;
 
+        public Author Author {get; set;}
+
     }
 
 }

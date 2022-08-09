@@ -1,0 +1,297 @@
+﻿++Solution 'BookStoreSln' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:BookStoreSln.sln
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++WebApi.UnitTests
+i:{9a0505f7-1f6f-47ff-80c0-1c991eec0c72}:WebApi.UnitTests
+++Dependencies
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>511
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>637
+++Application
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\
+++TestSetup
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\testsetup\
+++Validator
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\validator\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\
+++Analyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:analyzers
+i:{68a84cf3-1441-490b-b352-82523bd14765}:analyzers
+++Frameworks
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:frameworks
+i:{68a84cf3-1441-490b-b352-82523bd14765}:frameworks
+++Packages
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:packages
+i:{68a84cf3-1441-490b-b352-82523bd14765}:packages
+++Projects
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:projects
+++BookOprations
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\bookoprations\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\
+++Books.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\testsetup\books.cs
+++CommonTestFixture.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\testsetup\commontestfixture.cs
+++Genres.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\testsetup\genres.cs
+++CreateBookValidatorTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\validator\createbookvalidatortests.cs
+++DeleteBookValidatorTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\validator\deletebookvalidatortests.cs
+++GetDetailValidatorTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\validator\getdetailvalidatortests.cs
+++UpdateBookValidatorTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\validator\updatebookvalidatortests.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\users\samet\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\users\samet\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.6\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++xunit.analyzers
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:c:\users\samet\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++Microsoft.NETCore.App
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\microsoft.netcore.app
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\microsoft.netcore.app
+++coverlet.collector (3.1.0)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>653
+++FluentAssertions (5.10.3)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>648
+++Microsoft.EntityFrameworkCore (6.0.7)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>646
+++Microsoft.EntityFrameworkCore.InMemory (6.0.7)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>650
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>647
+++Moq (4.16.1)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>652
+++xunit (2.4.1)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>649
+++xunit.runner.visualstudio (2.4.3)
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:>651
+++WebApi
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\webapi\webapi.csproj
+i:{00000000-0000-0000-0000-000000000000}:WebApi
+++CreateBookTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\bookoprations\createbooktests.cs
+++DeleteBookTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\bookoprations\deletebooktests.cs
+++GetDetailTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\bookoprations\getdetailtests.cs
+++UpdateBookTests.cs
+i:{d3afef99-bb2a-4604-8923-900b339f7fdc}:d:\yazilim\patika\bookstore\tests\webapi.unittests\application\bookoprations\updatebooktests.cs
+++Connected Services 
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>638
+++Properties
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\properties\
+++AuthorOprations
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\
+++GenreOperations
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\
+++UserOprations
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\
+++Common
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\common\
+++MappingProfile.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\common\mappingprofile.cs
+++Controllers
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\controllers\
+++DbOprations
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\dboprations\
+++BookStoreDbContext.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\dboprations\bookstoredbcontext.cs
+++DataGenerator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\dboprations\datagenerator.cs
+++IBookStoreDbContext.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\dboprations\ibookstoredbcontext.cs
+++Entities
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\entities\
+++Middlewares
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\middlewares\
+++Services
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\services\
+++TokenOperations
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\tokenoperations\
+++Models
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\tokenoperations\models\
+++Token.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\tokenoperations\models\token.cs
+++TokenHandler.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\tokenoperations\tokenhandler.cs
+++appsettings.json
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\appsettings.json
+++Program.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\program.cs
+++WeatherForecast.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\weatherforecast.cs
+++No service dependencies discovered
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>639
+++launchSettings.json
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\properties\launchsettings.json
+++Commands
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\commands\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\commands\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\
+++Queries
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\queries\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\queries\
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\queries\
+++CreateBook.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\createbook.cs
+++DeleteBook.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\deletebook.cs
+++GetBookDetail.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\getbookdetail.cs
+++GetBookQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\getbookquery.cs
+++UpdateBook.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\bookoprations\updatebook.cs
+++AuthorController.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\controllers\authorcontroller.cs
+++BookController.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\controllers\bookcontroller.cs
+++GenreController.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\controllers\genrecontroller.cs
+++UserController.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\controllers\usercontroller.cs
+++Author.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\entities\author.cs
+++Book.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\entities\book.cs
+++Genre.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\entities\genre.cs
+++User.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\entities\user.cs
+++CustomExceptionMiddleware.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\middlewares\customexceptionmiddleware.cs
+++ConsoleLogger.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\services\consolelogger.cs
+++DBLogger.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\services\dblogger.cs
+++ILoggerService.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\services\iloggerservice.cs
+++AuthorValidator
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\authorvalidator\
+++BookValidator
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\bookvalidator\
+++GenreValidator
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\genrevalidator\
+++UserValidator
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\uservalidator\
+++appsettings.Development.json
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{68a84cf3-1441-490b-b352-82523bd14765}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\microsoft.aspnetcore.app
+++AutoMapper (11.0.1)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>672
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>667
+++FluentValidation (11.1.0)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>670
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>673
+++Microsoft.EntityFrameworkCore (6.0.6)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>666
+++Microsoft.EntityFrameworkCore.InMemory (6.0.6)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>674
+++Newtonsoft.Json (13.0.1)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>669
+++Swashbuckle.AspNetCore (6.2.3)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>668
+++System.Configuration.ConfigurationManager (6.0.0)
+i:{68a84cf3-1441-490b-b352-82523bd14765}:>671
+++CreateAuthor.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\commands\createauthor.cs
+++DeleteAuthor.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\commands\deleteauthor.cs
+++UpdateAuthor.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\commands\updateauthor.cs
+++GetAuthorDetailQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\queries\getauthordetailquery.cs
+++GetAuthorQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\authoroprations\queries\getauthorquery.cs
+++CreateGenreCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\commands\creategenrecommand.cs
+++DeleteGenreCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\commands\deletegenrecommand.cs
+++UpdateGenreCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\commands\updategenrecommand.cs
+++GetGenreDetailQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\queries\getgenredetailquery.cs
+++GetGenreQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\genreoperations\queries\getgenrequery.cs
+++CreateToken
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\createtoken\
+++CreateUserCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\createusercommand.cs
+++DeleteUserCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\deleteusercommand.cs
+++UpdateUserCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\updateusercommand.cs
+++GetDetailUserQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\queries\getdetailuserquery.cs
+++GetUsersQuery.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\queries\getusersquery.cs
+++CreateAuthorValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\authorvalidator\createauthorvalidator.cs
+++DeleteAuthorValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\authorvalidator\deleteauthorvalidator.cs
+++GetAuthorDetailValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\authorvalidator\getauthordetailvalidator.cs
+++UpdateAuthorValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\authorvalidator\updateauthorvalidator.cs
+++CreateBookValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\bookvalidator\createbookvalidator.cs
+++DeleteBookValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\bookvalidator\deletebookvalidator.cs
+++GetBookDetailValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\bookvalidator\getbookdetailvalidator.cs
+++UpdateBookValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\bookvalidator\updatebookvalidator.cs
+++CreateGenreValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\genrevalidator\creategenrevalidator.cs
+++DeleteGenreValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\genrevalidator\deletegenrevalidator.cs
+++GetGenreDetailValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\genrevalidator\getgenredetailvalidator.cs
+++UpdateGenreValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\genrevalidator\updategenrevalidator.cs
+++CreateUserValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\uservalidator\createuservalidator.cs
+++DeleteUserValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\uservalidator\deleteuservalidator.cs
+++GetDetailUserValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\uservalidator\getdetailuservalidator.cs
+++UpdateUserValidator.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\validator\uservalidator\updateuservalidator.cs
+++CreateTokenCommand
+++CreateTokenModel.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\createtoken\createtokenmodel.cs
+++CreateTokenCommand.cs
+i:{68a84cf3-1441-490b-b352-82523bd14765}:d:\yazilim\patika\bookstore\webapi\application\useroprations\commands\createtoken\createtokencommand.cs
