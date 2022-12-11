@@ -2,6 +2,7 @@
 using AutoMapper;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using WebApi.Application.UserOperations.Commands;
 using WebApi.Application.UserOperations.Queries;
 using WebApi.Application.UserOprations.Commands.CreateToken;

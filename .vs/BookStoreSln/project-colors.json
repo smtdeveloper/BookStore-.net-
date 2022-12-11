@@ -10,7 +10,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "d3afef99-bb2a-4604-8923-900b339f7fdc": {
+      "ProjectGuid": "d3afef99-bb2a-4604-8923-900b339f7fdc",
+      "DisplayName": "WebApi.UnitTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

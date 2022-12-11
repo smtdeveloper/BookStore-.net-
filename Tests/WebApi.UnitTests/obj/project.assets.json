@@ -7839,11 +7839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+      "projectUniqueName": "D:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
       "projectName": "WebApi.UnitTests",
-      "projectPath": "d:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+      "projectPath": "D:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
       "packagesPath": "C:\\Users\\samet\\.nuget\\packages\\",
-      "outputPath": "d:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\obj\\",
+      "outputPath": "D:\\YAZILIM\\Patika\\BookStore\\Tests\\WebApi.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7866,8 +7866,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {
-              "projectPath": "d:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj"
+            "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj": {
+              "projectPath": "D:\\YAZILIM\\Patika\\BookStore\\WebApi\\WebApi.csproj"
             }
           }
         }
